@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1D1D23;
+    color: #fff;
+}
+
+.main-container {
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.timer-input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.time-input {
+    display: flex;
+    align-items: center;
+}
+
+.time-input input {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+    text-align: center;
+    font-size: 48px;
+    margin: 0 5px;
+}
+
+.time-input span {
+    color: #fff;
+    font-size: 48px;
+    margin: 0 5px;
+}
+
+.set-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffc107; /* Yellow background */
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    height: 76px;
+}
+
+.set-button:hover {
+    background-color: #e0a800; /* Darker Yellow */
+}
+
+.current-timer-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #343a40; /* Dark Grey background */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.current-timer-button:hover {
+    background-color: #23272b; /* Darker Grey */
+}
+
+.active-timers-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.timer {
+    position: relative;
+    width: 309px;
+    height: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    background-color: #1D1D23;
+}
+
+.timer.end {
+    background-color: #ffc107; /* Yellow background */
+    color: #000;
+}
+
+.timer button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ffc107; /* Yellow background */
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.timer button:hover {
+    background-color: #e0a800; /* Darker Yellow */
+}
